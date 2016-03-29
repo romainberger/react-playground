@@ -1,7 +1,7 @@
 React Test
 =====================
 
-The minimal dev environment to enable live-editing React components.
+Here is a small test to have fun with react, we hope you'll enjoy it!
 
 ### Usage
 
