@@ -1,4 +1,4 @@
-react-hot-boilerplate
+React Test
 =====================
 
 The minimal dev environment to enable live-editing React components.
