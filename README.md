@@ -6,7 +6,7 @@ The minimal dev environment to enable live-editing React components.
 ### Usage
 
 ```
-git clone 
+git clone https://github.com/Youpinadi/react-playground.git
 npm install
 npm start
 open http://localhost:3000
