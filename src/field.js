@@ -33,7 +33,6 @@ export default class Field extends Component {
 
   componentDidMount() {
     requestAnimationFrame(::this.step)
-    //this.fetchUsers()
 
     let balls = []
     for (let i=0; i < this.props.nbBalls; i++) {
