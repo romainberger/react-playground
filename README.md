@@ -21,4 +21,19 @@ Your changes will appear without reloading the browser
 2. Refactor the Ball Component as a functional component
 3. Write fetchUsers method (it will hit ```https://api.dailymotion.com/users?fields=username,avatar_120_url,fans_total&sort=popular&limit=100```)
 4. Write newBallFromUser (size will be relative to fans_total)
-5. Make a better ball component (use user avatar, username...)
+5. Make a better ball component (use avatar_120_url, username...)
+
+
+### SVG help:
+SVG circle
+```xml
+<circle cx="" cy="" r="" fill=""/>
+```
+
+SVG image and text
+```xml
+  <g transform="translate(0,0)">
+    <image xlinkHref="" height="10" width="10"/>
+    <text font-family="sans-serif" font-size="20px" dx="-10px" fill="red">text</text>
+  </g>
+  ```
