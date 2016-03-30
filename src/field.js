@@ -2,12 +2,6 @@ import React, {Component} from 'react'
 import 'fetch-polyfill'
 import leftpad from 'left-pad' // ;)
 
-class Ball extends Component {
-  render() {
-    return null
-  }
-}
-
 export default class Field extends Component {
   static defaultProps = {
     size: 1000,
