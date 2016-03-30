@@ -12,7 +12,7 @@ npm start
 open http://localhost:3000
 ```
 
-Now edit `src/field.js`.  
+Now edit `src/field.js`.
 Your changes will appear without reloading the browser
 
 
@@ -34,6 +34,6 @@ SVG image and text
 ```xml
   <g transform="translate(0,0)">
     <image xlinkHref="" height="10" width="10"/>
-    <text font-family="sans-serif" font-size="20px" dx="-10px" fill="red">text</text>
+    <text fontFamily="sans-serif" fontSize="20px" dx="-10px" fill="red">text</text>
   </g>
-  ```
+```
